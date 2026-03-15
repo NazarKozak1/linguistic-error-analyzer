@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: satzfix_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Map local data folder to container to prevent database loss
+      - ./data:/app/data

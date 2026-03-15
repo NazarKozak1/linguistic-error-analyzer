@@ -1,0 +1,624 @@
+2026-03-08 17:02:13 | INFO     | __main__ | bot is starting...
+2026-03-08 17:02:17 | INFO     | __main__ | bot stopped by user.
+2026-03-08 17:23:01 | INFO     | __main__ | bot is starting...
+2026-03-08 17:38:49 | INFO     | __main__ | bot stopped by user.
+2026-03-08 17:40:51 | INFO     | __main__ | bot is starting...
+2026-03-08 17:58:46 | INFO     | __main__ | bot stopped by user.
+2026-03-08 18:47:47 | INFO     | __main__ | bot is starting...
+2026-03-08 18:55:41 | INFO     | __main__ | bot stopped by user.
+2026-03-08 18:55:47 | INFO     | __main__ | bot is starting...
+2026-03-08 18:58:06 | INFO     | __main__ | bot stopped by user.
+2026-03-08 18:59:59 | INFO     | __main__ | bot is starting...
+2026-03-08 19:00:10 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-08 19:00:10 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-08 19:00:13 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-08 19:00:13 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-08 19:01:36 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-08 19:01:36 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-08 19:01:40 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-08 19:01:40 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-08 19:09:31 | INFO     | __main__ | bot stopped by user.
+2026-03-08 19:09:36 | INFO     | __main__ | bot is starting...
+2026-03-08 19:09:45 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-08 19:09:45 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-08 19:09:49 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-08 19:09:49 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-08 19:10:15 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-08 19:10:15 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-08 19:10:21 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-08 19:10:22 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-08 19:12:26 | INFO     | __main__ | bot stopped by user.
+2026-03-08 19:12:35 | INFO     | __main__ | bot is starting...
+2026-03-08 19:12:44 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-08 19:12:44 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-08 19:12:48 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-08 19:12:48 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-08 19:51:17 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:51:17 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:51:21 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:51:21 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:53:07 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:53:07 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:53:09 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:53:09 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:53:49 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:53:49 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:53:54 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:53:54 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:54:40 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:54:40 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:54:44 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:54:44 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:55:14 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:55:14 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:55:16 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:55:16 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:55:42 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:55:42 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:55:45 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:55:45 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:56:40 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:56:40 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:56:42 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:56:42 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:57:40 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:57:40 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:57:41 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:57:42 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:58:29 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:58:29 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:58:30 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:58:30 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:58:41 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:58:41 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:58:45 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:58:45 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:59:00 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:59:00 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:59:05 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:59:05 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 19:59:38 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 19:59:38 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 19:59:41 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 19:59:41 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:00:39 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:00:39 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:00:44 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:00:44 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:01:39 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:01:39 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:01:43 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:01:43 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:02:23 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:02:23 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:02:26 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:02:26 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:02:38 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:02:38 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:02:41 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:02:41 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:02:55 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:02:55 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:02:58 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:02:58 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:03:14 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:03:14 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:03:16 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:03:16 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:03:35 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:03:35 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:03:37 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:03:37 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:03:55 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:03:55 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:03:57 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:03:57 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:04:09 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:04:09 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:04:11 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:04:12 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:05:21 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:05:21 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:05:23 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:05:23 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:05:46 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:05:46 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:05:49 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:05:49 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:05:59 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-08 20:05:59 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-08 20:06:00 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-08 20:06:00 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-08 20:08:58 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-08 20:08:58 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-08 20:09:02 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-08 20:09:02 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-08 20:09:23 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-08 20:09:23 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-08 20:09:27 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-08 20:09:27 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 18:15:41 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 18:15:41 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 18:15:45 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 18:15:45 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 20:52:12 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-09 20:52:12 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-09 20:52:18 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-09 20:52:18 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-09 20:53:46 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-09 20:53:46 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-09 20:53:52 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-09 20:53:52 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-09 20:54:32 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-09 20:54:32 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-09 20:54:35 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-09 20:54:35 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-09 20:55:36 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-09 20:55:36 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-09 20:55:38 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-09 20:55:39 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-09 20:55:46 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 20:55:46 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 20:55:49 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 20:55:49 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 23:24:35 | INFO     | __main__ | bot stopped by user.
+2026-03-09 23:24:46 | INFO     | __main__ | bot is starting...
+2026-03-09 23:24:53 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:24:53 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:25:00 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 23:25:00 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 23:25:50 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:25:50 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:25:54 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 23:25:54 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 23:27:05 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:27:05 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:27:08 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 23:27:08 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 23:32:59 | INFO     | __main__ | bot stopped by user.
+2026-03-09 23:33:11 | INFO     | __main__ | bot is starting...
+2026-03-09 23:33:32 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:33:32 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:33:33 | ERROR    | src.bot.messages | analysis failed for user_id=1: 1 validation error for ErrorAnalysis
+has_errors
+  Field required [type=missing, input_value={'errors': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+Traceback (most recent call last):
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\bot\messages.py", line 32, in process_sentence
+    result = await analyzer.analyze(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\pipeline\analyzer.py", line 105, in analyze
+    analysis, tokens_l2 = await self._analyze_errors(user_input, corrected, language)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\pipeline\analyzer.py", line 57, in _analyze_errors
+    return ErrorAnalysis(errors=[]), 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ErrorAnalysis
+has_errors
+  Field required [type=missing, input_value={'errors': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-03-09 23:34:32 | INFO     | __main__ | bot stopped by user.
+2026-03-09 23:34:53 | INFO     | __main__ | bot is starting...
+2026-03-09 23:34:53 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:34:53 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:34:54 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 23:34:54 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 23:35:31 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:35:31 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:35:32 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 23:35:33 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 23:36:35 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:36:35 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:36:39 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 23:36:39 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-09 23:47:36 | INFO     | __main__ | bot stopped by user.
+2026-03-09 23:47:48 | INFO     | __main__ | bot is starting...
+2026-03-09 23:52:15 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-09 23:52:15 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-09 23:52:16 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-09 23:52:17 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 00:08:50 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 00:08:50 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 00:09:06 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 00:09:06 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 00:47:46 | INFO     | __main__ | bot stopped by user.
+2026-03-10 00:47:51 | INFO     | __main__ | bot is starting...
+2026-03-10 00:47:51 | INFO     | src.bot.messages | received text from user_id=8207980697
+2026-03-10 00:47:51 | INFO     | src.bot.messages | starting analysis for user_id=3, lang=UKRAINIAN
+2026-03-10 00:47:52 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 00:47:52 | INFO     | src.bot.messages | received text from user_id=8207980697
+2026-03-10 00:47:52 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 00:47:52 | INFO     | src.bot.messages | starting analysis for user_id=3, lang=UKRAINIAN
+2026-03-10 00:47:53 | INFO     | src.bot.messages | saved analysis for user_id=3
+2026-03-10 00:47:53 | INFO     | src.bot.messages | response sent to user_id=3
+2026-03-10 00:47:55 | INFO     | src.bot.messages | saved analysis for user_id=3
+2026-03-10 00:47:56 | INFO     | src.bot.messages | response sent to user_id=3
+2026-03-10 00:47:57 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 00:47:57 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 00:48:36 | INFO     | src.bot.messages | received text from user_id=8207980697
+2026-03-10 00:48:36 | INFO     | src.bot.messages | starting analysis for user_id=3, lang=UKRAINIAN
+2026-03-10 00:48:38 | INFO     | src.bot.messages | saved analysis for user_id=3
+2026-03-10 00:48:38 | INFO     | src.bot.messages | response sent to user_id=3
+2026-03-10 00:49:01 | INFO     | src.bot.messages | received text from user_id=8207980697
+2026-03-10 00:49:01 | INFO     | src.bot.messages | starting analysis for user_id=3, lang=UKRAINIAN
+2026-03-10 00:49:02 | INFO     | src.bot.messages | saved analysis for user_id=3
+2026-03-10 00:49:02 | INFO     | src.bot.messages | response sent to user_id=3
+2026-03-10 00:49:06 | INFO     | src.bot.messages | received text from user_id=8207980697
+2026-03-10 00:49:06 | INFO     | src.bot.messages | starting analysis for user_id=3, lang=UKRAINIAN
+2026-03-10 00:49:09 | INFO     | src.bot.messages | saved analysis for user_id=3
+2026-03-10 00:49:09 | INFO     | src.bot.messages | response sent to user_id=3
+2026-03-10 00:58:46 | INFO     | src.bot.messages | received text from user_id=8207980697
+2026-03-10 00:58:46 | INFO     | src.bot.messages | starting analysis for user_id=3, lang=UKRAINIAN
+2026-03-10 00:58:50 | INFO     | src.bot.messages | saved analysis for user_id=3
+2026-03-10 00:58:50 | INFO     | src.bot.messages | response sent to user_id=3
+2026-03-10 01:03:54 | INFO     | src.bot.messages | received text from user_id=8207980697
+2026-03-10 01:03:54 | INFO     | src.bot.messages | starting analysis for user_id=3, lang=UKRAINIAN
+2026-03-10 01:03:56 | INFO     | src.bot.messages | saved analysis for user_id=3
+2026-03-10 01:03:56 | INFO     | __main__ | bot stopped by user.
+2026-03-10 16:11:39 | INFO     | __main__ | bot is starting...
+2026-03-10 16:11:39 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-10 16:11:39 | INFO     | src.bot.messages | received text from user_id=850104268
+2026-03-10 16:11:39 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-10 16:11:40 | INFO     | src.bot.messages | starting analysis for user_id=2, lang=UKRAINIAN
+2026-03-10 16:11:44 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-10 16:11:45 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-10 16:11:45 | INFO     | src.bot.messages | saved analysis for user_id=2
+2026-03-10 16:11:45 | INFO     | src.bot.messages | response sent to user_id=2
+2026-03-10 17:00:42 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 17:00:42 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 17:00:54 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 17:00:54 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 17:17:17 | INFO     | __main__ | bot stopped by user.
+2026-03-10 17:17:22 | INFO     | __main__ | bot is starting...
+2026-03-10 17:17:32 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 17:17:32 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 17:17:44 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 17:17:44 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 17:19:58 | INFO     | __main__ | bot stopped by user.
+2026-03-10 17:20:03 | INFO     | __main__ | bot is starting...
+2026-03-10 17:20:13 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 17:20:13 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 17:20:25 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 17:20:25 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 17:22:08 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 17:22:08 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 17:22:11 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 17:22:12 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 17:23:11 | INFO     | __main__ | bot stopped by user.
+2026-03-10 17:23:16 | INFO     | __main__ | bot is starting...
+2026-03-10 17:23:48 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 17:23:48 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 17:23:49 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 17:23:49 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 17:36:12 | INFO     | __main__ | bot stopped by user.
+2026-03-10 17:36:52 | INFO     | __main__ | bot is starting...
+2026-03-10 17:36:53 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 17:36:53 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 17:37:05 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 17:37:05 | ERROR    | src.bot.messages | analysis failed for user_id=1: 'highlighted_text'
+Traceback (most recent call last):
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\bot\messages.py", line 70, in process_sentence
+    response += f"<b>corrected:</b> <pre>{result['highlighted_text']}</pre>\n"
+                                          ~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'highlighted_text'
+2026-03-10 17:48:07 | INFO     | __main__ | bot stopped by user.
+2026-03-10 17:48:14 | INFO     | __main__ | bot is starting...
+2026-03-10 17:48:26 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 17:48:26 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 17:48:41 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 17:48:42 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 21:03:31 | INFO     | __main__ | bot stopped by user.
+2026-03-10 22:47:22 | INFO     | __main__ | bot is starting...
+2026-03-10 22:47:26 | INFO     | __main__ | bot stopped by user.
+2026-03-10 22:47:30 | INFO     | __main__ | bot is starting...
+2026-03-10 22:48:27 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 22:48:27 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 22:48:39 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 22:48:39 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 22:51:31 | INFO     | __main__ | bot stopped by user.
+2026-03-10 22:51:36 | INFO     | __main__ | bot is starting...
+2026-03-10 22:51:51 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 22:51:51 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 22:52:02 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 22:52:02 | ERROR    | src.bot.messages | analysis failed for user_id=1: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\bot\messages.py", line 92, in process_sentence
+    await message.answer(response)
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\aiogram\client\session\base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2026-03-10 22:52:19 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 22:52:19 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 22:52:27 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 22:52:27 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 22:55:56 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 22:55:56 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 22:56:03 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 22:56:04 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 22:56:26 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 22:56:26 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 22:56:34 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 22:56:35 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 22:57:27 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 22:57:27 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 22:57:37 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 22:57:37 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 23:08:34 | INFO     | __main__ | bot stopped by user.
+2026-03-10 23:08:45 | INFO     | __main__ | bot is starting...
+2026-03-10 23:08:53 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 23:08:53 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 23:08:54 | ERROR    | src.bot.messages | analysis failed for user_id=1: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+Traceback (most recent call last):
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\bot\messages.py", line 39, in process_sentence
+    result = await analyzer.analyze(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\pipeline\analyzer.py", line 102, in analyze
+    response = await self.client.beta.chat.completions.parse(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1680, in parse
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\openai\_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\openai\_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2026-03-10 23:09:58 | INFO     | __main__ | bot stopped by user.
+2026-03-10 23:10:47 | INFO     | __main__ | bot is starting...
+2026-03-10 23:10:48 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 23:10:48 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 23:11:28 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 23:11:28 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 23:12:16 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-10 23:12:16 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-10 23:13:20 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-10 23:13:20 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-10 23:21:09 | INFO     | __main__ | bot stopped by user.
+2026-03-11 15:28:43 | INFO     | __main__ | bot is starting...
+2026-03-11 15:30:29 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 15:30:29 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 15:30:36 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 15:30:36 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 15:42:45 | INFO     | __main__ | bot stopped by user.
+2026-03-11 15:42:50 | INFO     | __main__ | bot is starting...
+2026-03-11 15:43:10 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 15:43:10 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 15:43:47 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 15:43:47 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 16:06:51 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 16:06:51 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 16:07:02 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 16:07:02 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 16:11:14 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 16:11:14 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 16:11:58 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 16:11:59 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 16:15:04 | INFO     | __main__ | bot stopped by user.
+2026-03-11 16:15:10 | INFO     | __main__ | bot is starting...
+2026-03-11 16:15:16 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 16:15:16 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 16:15:16 | ERROR    | src.bot.messages | analysis failed for user_id=1: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/german/'
+
+  Searched in:
+    - 'C:\\Users\\nazar/nltk_data'
+    - 'C:\\Users\\nazar\\Desktop\\pet projects\\linguistic-error-analyzer\\.venv\\nltk_data'
+    - 'C:\\Users\\nazar\\Desktop\\pet projects\\linguistic-error-analyzer\\.venv\\share\\nltk_data'
+    - 'C:\\Users\\nazar\\Desktop\\pet projects\\linguistic-error-analyzer\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\nazar\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+Traceback (most recent call last):
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\bot\messages.py", line 46, in process_sentence
+    result = await analyzer.analyze(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\pipeline\analyzers\chunked.py", line 127, in analyze
+    sentences = sent_tokenize(user_input.strip(), language='german')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\nltk\tokenize\__init__.py", line 119, in sent_tokenize
+    tokenizer = _get_punkt_tokenizer(language)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\nltk\tokenize\__init__.py", line 105, in _get_punkt_tokenizer
+    return PunktTokenizer(language)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\nltk\tokenize\punkt.py", line 1744, in __init__
+    self.load_lang(lang)
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\nltk\tokenize\punkt.py", line 1749, in load_lang
+    lang_dir = find(f"tokenizers/punkt_tab/{lang}/")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\nltk\data.py", line 696, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/german/'
+
+  Searched in:
+    - 'C:\\Users\\nazar/nltk_data'
+    - 'C:\\Users\\nazar\\Desktop\\pet projects\\linguistic-error-analyzer\\.venv\\nltk_data'
+    - 'C:\\Users\\nazar\\Desktop\\pet projects\\linguistic-error-analyzer\\.venv\\share\\nltk_data'
+    - 'C:\\Users\\nazar\\Desktop\\pet projects\\linguistic-error-analyzer\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\nazar\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-11 16:16:56 | INFO     | __main__ | bot stopped by user.
+2026-03-11 16:17:03 | INFO     | __main__ | bot is starting...
+2026-03-11 16:17:27 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 16:17:27 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 16:18:02 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 16:18:02 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 16:22:37 | INFO     | __main__ | bot stopped by user.
+2026-03-11 16:22:45 | INFO     | __main__ | bot is starting...
+2026-03-11 16:22:52 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 16:22:52 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 16:23:32 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 16:23:32 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 16:45:06 | INFO     | __main__ | bot stopped by user.
+2026-03-11 16:45:15 | INFO     | __main__ | bot is starting...
+2026-03-11 16:47:58 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 16:47:58 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 16:48:32 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 16:48:32 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 16:49:16 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 16:49:16 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 16:49:39 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 16:49:39 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 22:37:44 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-11 22:37:44 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-11 22:38:08 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-11 22:38:08 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-11 22:41:16 | INFO     | src.bot.messages | received text from user_id=1140185077
+2026-03-11 22:41:16 | INFO     | src.bot.messages | starting analysis for user_id=4, lang=UKRAINIAN
+2026-03-11 22:41:45 | INFO     | src.bot.messages | saved analysis for user_id=4
+2026-03-11 22:41:45 | INFO     | src.bot.messages | response sent to user_id=4
+2026-03-11 22:47:55 | INFO     | src.bot.messages | received text from user_id=1140185077
+2026-03-11 22:47:55 | INFO     | src.bot.messages | starting analysis for user_id=4, lang=UKRAINIAN
+2026-03-11 22:48:06 | INFO     | src.bot.messages | saved analysis for user_id=4
+2026-03-11 22:48:06 | INFO     | src.bot.messages | response sent to user_id=4
+2026-03-12 20:29:31 | INFO     | __main__ | bot is starting...
+2026-03-12 20:30:00 | INFO     | src.bot.messages | received text from user_id=424718795
+2026-03-12 20:30:00 | INFO     | src.bot.messages | starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-12 20:30:30 | INFO     | src.bot.messages | saved analysis for user_id=1
+2026-03-12 20:30:30 | INFO     | src.bot.messages | response sent to user_id=1
+2026-03-12 20:32:20 | INFO     | __main__ | bot stopped by user.
+2026-03-15 13:18:21 | INFO     | __main__ | bot is starting...
+2026-03-15 13:20:45 | INFO     | __main__ | bot stopped by user.
+2026-03-15 13:20:50 | INFO     | __main__ | bot is starting...
+2026-03-15 13:21:05 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 13:21:05 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 13:21:09 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 13:21:09 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 13:22:12 | INFO     | __main__ | bot stopped by user.
+2026-03-15 13:22:23 | INFO     | __main__ | bot is starting...
+2026-03-15 13:22:32 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 13:22:32 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 13:22:33 | ERROR    | src.bot.messages | Analysis failed for user_id=1: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+Traceback (most recent call last):
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\bot\messages.py", line 50, in process_sentence
+    result = await analyzer.analyze(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\src\pipeline\analyzers\single_pass.py", line 100, in analyze
+    response = await self.client.beta.chat.completions.parse(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1680, in parse
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\openai\_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nazar\Desktop\pet projects\linguistic-error-analyzer\.venv\Lib\site-packages\openai\_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.0 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2026-03-15 13:23:50 | INFO     | __main__ | bot stopped by user.
+2026-03-15 13:23:56 | INFO     | __main__ | bot is starting...
+2026-03-15 13:24:03 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 13:24:03 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 13:24:31 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 13:24:31 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 13:30:21 | INFO     | __main__ | bot stopped by user.
+2026-03-15 14:13:06 | INFO     | __main__ | bot is starting...
+2026-03-15 14:13:10 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:13:10 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:14:07 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:14:07 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:14:45 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:14:45 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:15:23 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:15:24 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:16:30 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:16:30 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:16:51 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:16:51 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:17:44 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:17:44 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:18:26 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:18:26 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:23:03 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:23:03 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:23:45 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:23:45 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:24:06 | INFO     | __main__ | bot stopped by user.
+2026-03-15 14:24:12 | INFO     | __main__ | bot is starting...
+2026-03-15 14:24:18 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:24:18 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:24:35 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:24:35 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:26:59 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:26:59 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:28:22 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:28:22 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:28:50 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:28:50 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:28:57 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:28:57 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:29:20 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:29:20 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:29:46 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:29:46 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:29:50 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:29:50 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:30:26 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:30:26 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:30:30 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 14:30:30 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 14:30:43 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 14:30:43 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 14:35:30 | INFO     | __main__ | bot stopped by user.
+2026-03-15 14:35:52 | INFO     | __main__ | bot is starting...
+2026-03-15 14:40:18 | INFO     | __main__ | bot stopped by user.
+2026-03-15 14:40:23 | INFO     | __main__ | bot is starting...
+2026-03-15 14:44:03 | INFO     | __main__ | bot stopped by user.
+2026-03-15 14:44:11 | INFO     | __main__ | bot is starting...
+2026-03-15 15:05:00 | INFO     | __main__ | bot stopped by user.
+2026-03-15 15:06:00 | INFO     | __main__ | bot is starting...
+2026-03-15 15:14:50 | INFO     | __main__ | bot stopped by user.
+2026-03-15 15:15:00 | INFO     | __main__ | bot is starting...
+2026-03-15 15:52:02 | INFO     | __main__ | bot stopped by user.
+2026-03-15 15:52:07 | INFO     | __main__ | bot is starting...
+2026-03-15 16:02:37 | INFO     | __main__ | bot stopped by user.
+2026-03-15 16:02:42 | INFO     | __main__ | bot is starting...
+2026-03-15 16:17:26 | INFO     | src.bot.messages | Received text from user_id=424718795
+2026-03-15 16:17:26 | INFO     | src.bot.messages | Starting analysis for user_id=1, lang=UKRAINIAN
+2026-03-15 16:17:34 | INFO     | src.bot.messages | Saved analysis for user_id=1
+2026-03-15 16:17:34 | INFO     | src.bot.messages | Response sent to user_id=1
+2026-03-15 16:44:51 | INFO     | __main__ | bot stopped by user.
+2026-03-15 16:45:02 | INFO     | src.bot.commands | Bot commands successfully set for all languages.
+2026-03-15 16:45:02 | INFO     | __main__ | bot is starting...
+2026-03-15 16:51:06 | INFO     | __main__ | bot stopped by user.

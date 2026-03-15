@@ -1,0 +1,92 @@
+# src/utils/texts.py
+
+SUPPORTED_LANGUAGES = ["en", "uk", "de", "ru"]
+DEFAULT_LANGUAGE = "en"
+
+TRANSLATIONS = {
+    "en": {
+        "welcome_new": "Welcome to satzfix!\n\nPlease choose the language for explanations and translations:",
+        "welcome_back": "Welcome back, {name}!\n\nI am ready. Just send me your German sentences.",
+        "choose_new_language": "Please choose the new language for explanations:",
+        "lang_saved": "Language has been successfully saved! Send me a sentence in German.",
+        "quota_exceeded": "Daily limit reached. Try again tomorrow.",
+        "text_too_long": "Your text is too long.",
+        "not_german": "Please enter a sentence in German.",
+        "original": "Original:",
+        "corrected": "Corrected:",
+        "translated": "Translated:",
+        "errors_title": "Errors:",
+        "no_errors": "Perfect! No errors found.",
+        "analysis_error": "An error occurred during the analysis.",
+        "role_changed": "Your role has been changed to \"{role}\".",
+        "role_desc_regular": "Your daily limit is now 5 sentences, and the message length limit is 250 characters.",
+        "role_desc_admin": "Your daily limit is now 15 sentences, and the message length limit is 500 characters. For longer texts, a more powerful model will now be used.",
+        "role_desc_owner": "You can now use the bot without any restrictions. For longer texts, a more powerful model will now be used.",
+        "cmd_change_lang_desc": "Change the language for explanations"
+    },
+    "uk": {
+        "welcome_new": "Ласкаво просимо до satzfix!\n\nБудь ласка, оберіть мову для пояснень та перекладів:",
+        "welcome_back": "З поверненням, {name}!\n\nЯ готовий. Просто надішліть мені ваші речення німецькою.",
+        "choose_new_language": "Будь ласка, оберіть нову мову для пояснень:",
+        "lang_saved": "Мову успішно збережено! Надішліть мені речення німецькою.",
+        "quota_exceeded": "Денний ліміт вичерпано. Спробуйте завтра.",
+        "text_too_long": "Текст занадто довгий.",
+        "not_german": "Будь ласка, введіть речення німецькою.",
+        "original": "Оригінал:",
+        "corrected": "Виправлено:",
+        "translated": "Переклад:",
+        "errors_title": "Помилки:",
+        "no_errors": "Ідеально! Помилок не знайдено.",
+        "analysis_error": "Сталася помилка під час аналізу.",
+        "role_changed": "Ваша роль була змінена на \"{role}\".",
+        "role_desc_regular": "Тепер ваш денний ліміт 5 речень і обмеження 250 символів на повідомлення.",
+        "role_desc_admin": "Тепер ваш денний ліміт 15 речень і обмеження 500 символів на повідомлення. Для довших текстів тепер буде використовуватись більш потужна модель.",
+        "role_desc_owner": "Тепер ви можете без обмежень користуватись ботом. Для довших текстів тепер буде використовуватись більш потужна модель.",
+        "cmd_change_lang_desc": "Змінити мову пояснень"
+    },
+    "de": {
+        "welcome_new": "Willkommen bei satzfix!\n\nBitte wählen Sie die Sprache für Erklärungen und Übersetzungen:",
+        "welcome_back": "Willkommen zurück, {name}!\n\nIch bin bereit. Senden Sie mir einfach Ihre deutschen Sätze.",
+        "choose_new_language": "Bitte wählen Sie die neue Sprache für Erklärungen:",
+        "lang_saved": "Sprache wurde gespeichert! Senden Sie mir einen Satz auf Deutsch.",
+        "quota_exceeded": "Tageslimit erreicht. Versuchen Sie es morgen nochmal.",
+        "text_too_long": "Ihr Text ist zu lang.",
+        "not_german": "Bitte geben Sie einen Satz auf Deutsch ein.",
+        "original": "Original:",
+        "corrected": "Korrigiert:",
+        "translated": "Übersetzt:",
+        "errors_title": "Fehler:",
+        "no_errors": "Perfekt! Keine Fehler gefunden.",
+        "analysis_error": "Ein Fehler ist während der Analyse aufgetreten.",
+        "role_changed": "Ihre Rolle wurde auf \"{role}\" geändert.",
+        "role_desc_regular": "Ihr Tageslimit beträgt nun 5 Sätze und die maximale Nachrichtenlänge 250 Zeichen.",
+        "role_desc_admin": "Ihr Tageslimit beträgt nun 15 Sätze und die maximale Nachrichtenlänge 500 Zeichen. Für längere Texte wird nun ein leistungsfähigeres Modell verwendet.",
+        "role_desc_owner": "Sie können den Bot nun uneingeschränkt nutzen. Für längere Texte wird nun ein leistungsfähigeres Modell verwendet.",
+        "cmd_change_lang_desc": "Sprache für Erklärungen ändern"
+    },
+    "ru": {
+        "welcome_new": "Добро пожаловать в satzfix!\n\nПожалуйста, выберите язык для объяснений и переводов:",
+        "welcome_back": "С возвращением, {name}!\n\nЯ готов. Просто отправьте мне ваши предложения на немецком.",
+        "choose_new_language": "Пожалуйста, выберите новый язык для объяснений:",
+        "lang_saved": "Язык успешно сохранен! Отправьте мне предложение на немецком.",
+        "quota_exceeded": "Дневной лимит исчерпан. Попробуйте завтра.",
+        "text_too_long": "Текст слишком длинный.",
+        "not_german": "Пожалуйста, введите предложение на немецком.",
+        "original": "Оригинал:",
+        "corrected": "Исправлено:",
+        "translated": "Перевод:",
+        "errors_title": "Ошибки:",
+        "no_errors": "Идеально! Ошибок не найдено.",
+        "analysis_error": "Произошла ошибка во время анализа.",
+        "role_changed": "Ваша роль была изменена на \"{role}\".",
+        "role_desc_regular": "Теперь ваш дневной лимит 5 предложений и ограничение 250 символов на сообщение.",
+        "role_desc_admin": "Теперь ваш дневной лимит 15 предложений и ограничение 500 символов на сообщение. Для длинных текстов теперь будет использоваться более мощная модель.",
+        "role_desc_owner": "Теперь вы можете без ограничений пользоваться ботом. Для длинных текстов теперь будет использоваться более мощная модель.",
+        "cmd_change_lang_desc": "Изменить язык объяснений"
+    }
+}
+
+def get_text(lang_code: str, key: str) -> str:
+    # Fallback to default language if the requested language or key is missing
+    lang = lang_code if lang_code in SUPPORTED_LANGUAGES else DEFAULT_LANGUAGE
+    return TRANSLATIONS.get(lang, TRANSLATIONS[DEFAULT_LANGUAGE]).get(key, f"missing_text: {key}")
