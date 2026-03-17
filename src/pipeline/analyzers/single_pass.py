@@ -84,7 +84,7 @@ class SinglePassAnalyzer:
                 1. Find ALL grammar, spelling, punctuation, AND TENSE errors.
                 2. Document them in the `errors` array. Explanations in {language.value}.
                 3. Generate the `corrected_text` based exactly on the errors array.
-                4. Generate `translation`.
+                4. Generate `translation` in {language.value}.
 
                 CRITICAL PRIORITIES (IN ORDER):
                 1. GRAMMAR & TENSE OVERRIDE EVERYTHING: You MUST correct verbs that contradict time markers. "Ich kaufe ... gestern" is a FATAL ERROR. You MUST change it to Perfekt ("Ich habe ... gekauft"). 
