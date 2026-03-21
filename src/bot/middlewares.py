@@ -24,7 +24,7 @@ class QuotaMiddleware(BaseMiddleware):
             data["db_session"] = session
 
             if BOT_STATE["is_paused"] and user.role != UserRole.OWNER:
-                await event.answer("🛠 Bot is under maintenance. Please try again later.")
+                await event.answer("Bot is under maintenance. Please try again later.")
                 return
 
             # Skip quota checks for commands

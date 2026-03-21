@@ -197,6 +197,6 @@ async def cmd_toggle_maintenance(message: types.Message, db_user: User):
     # Toggle the state
     BOT_STATE["is_paused"] = not BOT_STATE["is_paused"]
 
-    status = "⏸ PAUSED (Maintenance Mode)" if BOT_STATE["is_paused"] else "▶️ ACTIVE"
-    await message.answer(f"System status updated: {status}\nRegular users are now blocked." if BOT_STATE[
-        "is_paused"] else f"System status updated: {status}\nBot is open to everyone.")
+    status = "<b>Maintenance Mode</b>" if BOT_STATE["is_paused"] else "<b>Active</b>"
+    await message.answer(f"Current status: {status}\nRegular and Admin users are now blocked." if BOT_STATE[
+        "is_paused"] else f"Current status: {status}\nBot is open to everyone.")
