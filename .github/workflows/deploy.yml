@@ -18,5 +18,6 @@ jobs:
           script: |
             cd ~/linguistic-error-analyzer
             git pull origin main
+            docker-compose down
             docker-compose up --build -d
             docker exec satzfix_bot alembic upgrade head
