@@ -22,7 +22,9 @@ TRANSLATIONS = {
         "role_desc_regular": "Your daily limit is now 5 sentences, and the message length limit is 250 characters.",
         "role_desc_admin": "Your daily limit is now 15 sentences, and the message length limit is 500 characters. For longer texts, a more powerful model will now be used.",
         "role_desc_owner": "You can now use the bot without any restrictions. For longer texts, a more powerful model will now be used.",
-        "cmd_change_lang_desc": "Change the language for explanations"
+        "cmd_change_lang_desc": "Change the language for explanations",
+        "loading_errors": "Loading errors",
+        "analyzing": "Analyzing text"
     },
     "uk": {
         "welcome_new": "Ласкаво просимо до satzfix!\n\nБудь ласка, оберіть мову для пояснень та перекладів:",
@@ -42,7 +44,9 @@ TRANSLATIONS = {
         "role_desc_regular": "Тепер ваш денний ліміт 5 речень і обмеження 250 символів на повідомлення.",
         "role_desc_admin": "Тепер ваш денний ліміт 15 речень і обмеження 500 символів на повідомлення. Для довших текстів тепер буде використовуватись більш потужна модель.",
         "role_desc_owner": "Тепер ви можете без обмежень користуватись ботом. Для довших текстів тепер буде використовуватись більш потужна модель.",
-        "cmd_change_lang_desc": "Змінити мову пояснень"
+        "cmd_change_lang_desc": "Змінити мову пояснень",
+        "loading_errors": "Завантаження помилок",
+        "analyzing": "Аналізую текст",
     },
     "de": {
         "welcome_new": "Willkommen bei satzfix!\n\nBitte wählen Sie die Sprache für Erklärungen und Übersetzungen:",
@@ -62,7 +66,9 @@ TRANSLATIONS = {
         "role_desc_regular": "Ihr Tageslimit beträgt nun 5 Sätze und die maximale Nachrichtenlänge 250 Zeichen.",
         "role_desc_admin": "Ihr Tageslimit beträgt nun 15 Sätze und die maximale Nachrichtenlänge 500 Zeichen. Für längere Texte wird nun ein leistungsfähigeres Modell verwendet.",
         "role_desc_owner": "Sie können den Bot nun uneingeschränkt nutzen. Für längere Texte wird nun ein leistungsfähigeres Modell verwendet.",
-        "cmd_change_lang_desc": "Sprache für Erklärungen ändern"
+        "cmd_change_lang_desc": "Sprache für Erklärungen ändern",
+        "loading_errors": "Lade Fehler",
+        "analyzing": "Text wird analysiert",
     },
     "ru": {
         "welcome_new": "Добро пожаловать в satzfix!\n\nПожалуйста, выберите язык для объяснений и переводов:",
@@ -82,7 +88,9 @@ TRANSLATIONS = {
         "role_desc_regular": "Теперь ваш дневной лимит 5 предложений и ограничение 250 символов на сообщение.",
         "role_desc_admin": "Теперь ваш дневной лимит 15 предложений и ограничение 500 символов на сообщение. Для длинных текстов теперь будет использоваться более мощная модель.",
         "role_desc_owner": "Теперь вы можете без ограничений пользоваться ботом. Для длинных текстов теперь будет использоваться более мощная модель.",
-        "cmd_change_lang_desc": "Изменить язык объяснений"
+        "cmd_change_lang_desc": "Изменить язык объяснений",
+        "loading_errors": "Загрузка ошибок",
+        "analyzing": "Анализ текста",
     }
 }
 

@@ -10,14 +10,10 @@ from src.bot.callbacks import router as callbacks_router
 from src.utils.logger import get_logger
 from src.bot.messages import router as messages_router
 from src.bot.middlewares import QuotaMiddleware
-from aiogram.types import BotCommand
 
 
 logger = get_logger(__name__)
 load_dotenv()
-
-# todo add vocabulary logic
-# todo host bot to server
 
 async def main():
     """bot entry point."""

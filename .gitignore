@@ -13,3 +13,4 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+src/playground.ipynb

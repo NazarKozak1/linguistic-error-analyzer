@@ -24,3 +24,12 @@ class SinglePassAnalysis(BaseModel):
     errors: List[ErrorDetail] = Field(description="List of detected errors. MUST be generated BEFORE the corrected texts.")
     corrected_text: str = Field(description="The clean corrected German sentence. ABSOLUTELY NO HTML TAGS HERE.")
     translation: str = Field(description="Translation of the corrected sentence into the requested language.")
+
+
+class FastCorrection(BaseModel):
+    has_errors: bool = Field(description="True if errors are found.")
+    corrected_text: str = Field(description="The clean corrected German sentence. ABSOLUTELY NO HTML TAGS HERE. If no errors, return the original sentence.")
+    translation: str = Field(description="Translation of the corrected sentence into the requested language.")
+
+class DetailedErrors(BaseModel):
+    errors: List[ErrorDetail] = Field(description="List of detected errors. Must match the differences between the original and corrected text.")
