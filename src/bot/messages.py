@@ -71,9 +71,9 @@ async def process_sentence(message: types.Message, db_user: User, db_session: As
             clean_text += '.'
 
     # Validate input language
-    if not is_german(clean_text):
-        await message.answer(get_text(user_lang, "not_german"))
-        return
+    #if not is_german(clean_text):
+    #    await message.answer(get_text(user_lang, "not_german"))
+    #    return
 
     await message.bot.send_chat_action(chat_id=message.chat.id, action='typing')
     logger.info(f"Received text from user_id={message.from_user.id}")
