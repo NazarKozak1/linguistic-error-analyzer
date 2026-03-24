@@ -17,6 +17,7 @@ import asyncio
 from aiogram.types import BotCommand, BotCommandScopeAllPrivateChats
 from src.utils.logger import get_logger
 from src.bot.config import BOT_STATE
+from aiogram.types import BotCommandScopeChat
 
 
 logger = get_logger(__name__)
@@ -220,15 +221,38 @@ async def cmd_toggle_maintenance(message: types.Message, db_user: User):
 
 
 
+@router.message(Command("reset_all_menus"))
+async def cmd_reset_all_menus(message: types.Message, db_user: User, bot: Bot):
+    """One-time script to delete stuck personal menus for all existing users."""
 
-# Command for reseting menu
+    # Restrict to OWNER only
+    if db_user.role != UserRole.OWNER:
+        return
 
-"""from aiogram.types import BotCommandScopeChat
+    await message.answer("🔄 Starting to reset menus for all users. This might take a minute...")
 
-@router.message(Command("reset_menu"))
-async def cmd_reset_menu(message: types.Message, bot: Bot):
-    try:
-        await bot.delete_my_commands(scope=BotCommandScopeChat(chat_id=message.from_user.id))
-        await message.answer("✅")
-    except Exception as e:
-        await message.answer(f"❌ {e}")"""
+    success_count = 0
+    fail_count = 0
+
+    async with AsyncSessionLocal() as session:
+        # Fetch all users from the database
+        result = await session.execute(select(User))
+        users = result.scalars().all()
+
+        for user in users:
+            try:
+                # Delete the personal scope menu for this specific user
+                await bot.delete_my_commands(scope=BotCommandScopeChat(chat_id=user.telegram_id))
+                success_count += 1
+            except Exception as e:
+                logger.error(f"Failed to reset menu for {user.telegram_id}: {e}")
+                fail_count += 1
+
+            # Sleep to prevent Telegram API Flood Control errors
+            await asyncio.sleep(0.05)
+
+    await message.answer(
+        f"✅ Global menu reset complete!\n"
+        f"Success: {success_count}\n"
+        f"Failed: {fail_count}"
+    )
