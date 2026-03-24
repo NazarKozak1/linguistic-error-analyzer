@@ -1,36 +1,58 @@
 from typing import Callable, Dict, Any, Awaitable
 from aiogram import BaseMiddleware
-from aiogram.types import Message
+from aiogram.types import TelegramObject, Message, CallbackQuery
+from sqlalchemy import select
 from src.db.database import AsyncSessionLocal
-from src.db.crud import get_or_create_user
-from src.db.models import UserRole
+from src.db.models import User, UserRole
 from src.bot.config import BOT_STATE
-
-
 
 class QuotaMiddleware(BaseMiddleware):
     async def __call__(
         self,
-        handler: Callable[[Message, Dict[str, Any]], Awaitable[Any]],
-        event: Message,
+        handler: Callable[[TelegramObject, Dict[str, Any]], Awaitable[Any]],
+        event: TelegramObject,
         data: Dict[str, Any]
     ) -> Any:
 
-        async with AsyncSessionLocal() as session:
-            user, _ = await get_or_create_user(session, event.from_user.id)
+        # Safely extract user_id and text/data depending on event type
+        user_id = event.from_user.id
+        text = ""
+        if isinstance(event, Message):
+            text = event.text or ""
+        elif isinstance(event, CallbackQuery):
+            text = event.data or ""
 
-            # передаємо завжди
+        # 1. Skip middleware completely for specific commands (Message only)
+        if isinstance(event, Message) and (text.startswith("/start") or text.startswith("/language")):
+            return await handler(event, data)
+
+        async with AsyncSessionLocal() as session:
+            # Fetch user without creating a new record
+            result = await session.execute(
+                select(User).where(User.telegram_id == user_id)
+            )
+            user = result.scalar_one_or_none()
+
+            # Ignore unregistered users entirely
+            if not user:
+                return
+
+            # Inject variables for all handlers (Messages AND CallbackQueries)
             data["db_user"] = user
             data["db_session"] = session
 
             if BOT_STATE["is_paused"] and user.role != UserRole.OWNER:
-                await event.answer("Bot is under maintenance. Please try again later.")
+                if isinstance(event, Message):
+                    await event.answer("Bot is under maintenance. Please try again later.")
+                elif isinstance(event, CallbackQuery):
+                    await event.answer("Bot is under maintenance.", show_alert=True)
                 return
 
-            # Skip quota checks for commands
-            if not event.text or event.text.startswith("/"):
+            # 2. Skip quota checks for buttons and commands
+            if isinstance(event, CallbackQuery) or text.startswith("/"):
                 return await handler(event, data)
 
+            # --- Quota checks (Only for regular text messages) ---
             rules = {
                 UserRole.REGULAR: {"req_limit": 5, "char_limit": 250},
                 UserRole.ADMIN: {"req_limit": 15, "char_limit": 500},
@@ -39,10 +61,9 @@ class QuotaMiddleware(BaseMiddleware):
 
             user_rules = rules.get(user.role, rules[UserRole.REGULAR])
 
-            text_length = len(event.text)
-            if text_length > user_rules["char_limit"]:
+            if len(text) > user_rules["char_limit"]:
                 await event.answer(
-                    f"Text is too long ({text_length}/{user_rules['char_limit']} characters). "
+                    f"Text is too long ({len(text)}/{user_rules['char_limit']} characters). "
                     f"Please split it into smaller parts."
                 )
                 return

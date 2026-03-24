@@ -30,6 +30,8 @@ async def main():
 
     dp.message.middleware(QuotaMiddleware())
 
+    dp.callback_query.middleware(QuotaMiddleware())
+
     dp.include_router(commands_router)
     dp.include_router(callbacks_router)
     dp.include_router(messages_router)

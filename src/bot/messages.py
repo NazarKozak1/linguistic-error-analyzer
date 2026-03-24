@@ -1,4 +1,4 @@
-from aiogram import Router, F, types
+from aiogram import Router
 from sqlalchemy.ext.asyncio import AsyncSession
 from nltk.tokenize import sent_tokenize
 
@@ -6,12 +6,15 @@ from src.db.models import User, UserRole
 from src.db.crud import save_sentence_with_errors
 from src.utils.enums import OutputLanguage
 from src.utils.logger import get_logger
-from src.utils.validators import is_german
-from src.utils.texts import get_text
+from src.utils.texts import get_text, SUPPORTED_LANGUAGES
 
 from src.pipeline.analyzers.single_pass import SinglePassAnalyzer
 from src.pipeline.analyzers.chunked import ChunkedAnalyzer
 from aiogram.exceptions import TelegramRetryAfter, TelegramBadRequest, TelegramAPIError
+
+from aiogram import types, F
+from src.bot.states import OnboardingSteps
+from src.bot.keyboards import get_language_kb
 
 from html import escape
 import asyncio

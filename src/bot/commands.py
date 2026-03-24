@@ -1,5 +1,5 @@
 from aiogram import Router, types, Bot
-from aiogram.filters import CommandStart, Command
+from aiogram.filters import CommandStart, Command, StateFilter
 from aiogram.fsm.context import FSMContext
 
 from src.bot.states import OnboardingSteps
@@ -19,9 +19,23 @@ from src.utils.logger import get_logger
 from src.bot.config import BOT_STATE
 
 
-
 logger = get_logger(__name__)
 router = Router()
+
+
+@router.message(StateFilter(OnboardingSteps.choose_language))
+async def require_language_choice(message: types.Message):
+    """Catch ANY input (commands, text, media) while in choose_language state."""
+
+    tg_lang = message.from_user.language_code
+    fallback_lang = tg_lang if tg_lang in SUPPORTED_LANGUAGES else "en"
+
+    warning_text = get_text(fallback_lang, "require_language_selection")
+
+    await message.answer(
+        warning_text,
+        reply_markup=get_language_kb()
+    )
 
 
 @router.message(CommandStart())
@@ -63,30 +77,32 @@ async def cmd_start(message: types.Message, state: FSMContext):
     )
 
 
-@router.message(Command("change_output_language"))
+@router.message(Command("language"))
 async def cmd_change_language(message: types.Message, state: FSMContext):
-    """handle /change_output_language command."""
-
-    # fetch user to determine their current preferred language
+    # Fetch user without creating a new record
     async with AsyncSessionLocal() as session:
-        user, _ = await get_or_create_user(
-            session=session,
-            telegram_id=message.from_user.id
+        result = await session.execute(
+            select(User).where(User.telegram_id == message.from_user.id)
         )
+        user = result.scalar_one_or_none()
+
+        # Ignore command if user is not found in the database
+        if not user:
+            return
+
         user_lang = user.preferred_language if user.preferred_language in SUPPORTED_LANGUAGES else "en"
 
     await state.set_state(OnboardingSteps.choose_language)
-
-    # flag to prevent triggering the full onboarding chain
     await state.update_data(standalone=True)
 
-    # get localized text
     prompt_text = get_text(user_lang, "choose_new_language")
 
     await message.answer(
         prompt_text,
         reply_markup=get_language_kb()
     )
+
+
 
 
 @router.message(Command("set_role"))
@@ -158,7 +174,7 @@ async def set_bot_commands(bot: Bot):
     # 1. Base menu (fallback without language_code)
     default_commands = [
         BotCommand(
-            command="change_output_language",
+            command="language",
             description=get_text(DEFAULT_LANGUAGE, "cmd_change_lang_desc")
         )
     ]
@@ -168,7 +184,7 @@ async def set_bot_commands(bot: Bot):
     for lang in SUPPORTED_LANGUAGES:
         localized_commands = [
             BotCommand(
-                command="change_output_language",
+                command="language",
                 description=get_text(lang, "cmd_change_lang_desc")
             )
         ]
@@ -200,3 +216,19 @@ async def cmd_toggle_maintenance(message: types.Message, db_user: User):
     status = "<b>Maintenance Mode</b>" if BOT_STATE["is_paused"] else "<b>Active</b>"
     await message.answer(f"Current status: {status}\nRegular and Admin users are now blocked." if BOT_STATE[
         "is_paused"] else f"Current status: {status}\nBot is open to everyone.")
+
+
+
+
+
+# Command for reseting menu
+
+"""from aiogram.types import BotCommandScopeChat
+
+@router.message(Command("reset_menu"))
+async def cmd_reset_menu(message: types.Message, bot: Bot):
+    try:
+        await bot.delete_my_commands(scope=BotCommandScopeChat(chat_id=message.from_user.id))
+        await message.answer("✅")
+    except Exception as e:
+        await message.answer(f"❌ {e}")"""

@@ -24,7 +24,8 @@ TRANSLATIONS = {
         "role_desc_owner": "You can now use the bot without any restrictions. For longer texts, a more powerful model will now be used.",
         "cmd_change_lang_desc": "Change the language for explanations",
         "loading_errors": "Loading errors",
-        "analyzing": "Analyzing text"
+        "analyzing": "Analyzing text",
+        "require_language_selection": "Please choose the language for translation and explanations",
     },
     "uk": {
         "welcome_new": "Ласкаво просимо до satzfix!\n\nБудь ласка, оберіть мову для пояснень та перекладів:",
@@ -47,6 +48,7 @@ TRANSLATIONS = {
         "cmd_change_lang_desc": "Змінити мову пояснень",
         "loading_errors": "Завантаження помилок",
         "analyzing": "Аналізую текст",
+        "require_language_selection": "Будь ласка, виберіть мову перекладу та пояснень",
     },
     "de": {
         "welcome_new": "Willkommen bei satzfix!\n\nBitte wählen Sie die Sprache für Erklärungen und Übersetzungen:",
@@ -69,6 +71,7 @@ TRANSLATIONS = {
         "cmd_change_lang_desc": "Sprache für Erklärungen ändern",
         "loading_errors": "Lade Fehler",
         "analyzing": "Text wird analysiert",
+        "require_language_selection": "Bitte wählen Sie die Sprache für Übersetzung und Erklärungen",
     },
     "ru": {
         "welcome_new": "Добро пожаловать в satzfix!\n\nПожалуйста, выберите язык для объяснений и переводов:",
@@ -91,6 +94,7 @@ TRANSLATIONS = {
         "cmd_change_lang_desc": "Изменить язык объяснений",
         "loading_errors": "Загрузка ошибок",
         "analyzing": "Анализ текста",
+        "require_language_selection": "Пожалуйста, выберите язык перевода и объяснений",
     }
 }
 
