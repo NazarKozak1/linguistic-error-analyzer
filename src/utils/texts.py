@@ -26,6 +26,18 @@ TRANSLATIONS = {
         "loading_errors": "Loading errors",
         "analyzing": "Analyzing text",
         "require_language_selection": "Please choose the language for translation and explanations",
+        "error_text_too_long": "Text is too long ({current_len}/{char_limit} characters). Please split it into smaller parts or ask the bot creator to increase your limit: @Kozaknazar",
+        "error_daily_limit_reached": "Daily request limit reached ({req_limit}/{req_limit}). Please try again tomorrow or ask the bot creator to get more daily requests: @Kozaknazar",
+        "bot_short_description": "I correct German sentences and explain your mistakes using CEFR rules.",
+        "bot_welcome_description": (
+            "Welcome to the German Error Analyzer! 🇩🇪\n\n"
+            "Learning German? Don't guess if your sentence is correct. "
+            "Just send me your text and I will:\n\n"
+            "✨ Fix grammar and spelling mistakes\n"
+            "📝 Explain the rules clearly\n"
+            "🌐 Translate it to your language\n\n"
+            "Press /start to begin!"
+        ),
     },
     "uk": {
         "welcome_new": "Ласкаво просимо до satzfix!\n\nБудь ласка, оберіть мову для пояснень та перекладів:",
@@ -49,6 +61,18 @@ TRANSLATIONS = {
         "loading_errors": "Завантаження помилок",
         "analyzing": "Аналізую текст",
         "require_language_selection": "Будь ласка, виберіть мову перекладу та пояснень",
+        "error_text_too_long": "Текст занадто довгий ({current_len}/{char_limit} символів). Будь ласка, розділіть його на менші частини або попросіть розробника збільшити ваш ліміт: @Kozaknazar",
+        "error_daily_limit_reached": "Денний ліміт запитів вичерпано ({req_limit}/{req_limit}). Спробуйте завтра або попросіть розробника надати більше запитів: @Kozaknazar",
+        "bot_short_description": "🇩🇪 Я виправляю німецькі речення та пояснюю помилки за стандартами CEFR.",
+        "bot_welcome_description": (
+            "Привіт! Я твій особистий помічник з німецької мови 🇩🇪\n\n"
+            "Вчиш німецьку і сумніваєшся, чи правильно побудоване речення? "
+            "Просто відправ мені свій текст, і я:\n\n"
+            "✨ Виправлю граматику та орфографію\n"
+            "📝 Поясню правила зрозумілою мовою\n"
+            "🌐 Додам переклад\n\n"
+            "Натискай /start, щоб почати!"
+        ),
     },
     "de": {
         "welcome_new": "Willkommen bei satzfix!\n\nBitte wählen Sie die Sprache für Erklärungen und Übersetzungen:",
@@ -72,6 +96,18 @@ TRANSLATIONS = {
         "loading_errors": "Lade Fehler",
         "analyzing": "Text wird analysiert",
         "require_language_selection": "Bitte wählen Sie die Sprache für Übersetzung und Erklärungen",
+        "error_text_too_long": "Text ist zu lang ({current_len}/{char_limit} Zeichen). Bitte teilen Sie ihn in kleinere Teile auf oder bitten Sie den Bot-Ersteller, Ihr Limit zu erhöhen: @Kozaknazar",
+        "error_daily_limit_reached": "Tägliches Anfrage-Limit erreicht ({req_limit}/{req_limit}). Bitte versuchen Sie es morgen wieder oder bitten Sie den Bot-Ersteller um mehr tägliche Anfragen: @Kozaknazar",
+        "bot_short_description": "🇩🇪 Ich korrigiere deutsche Sätze und erkläre Fehler nach CEFR-Regeln.",
+        "bot_welcome_description": (
+            "Willkommen beim German Error Analyzer! 🇩🇪\n\n"
+            "Lernen Sie Deutsch? Raten Sie nicht, ob Ihr Satz richtig ist. "
+            "Senden Sie mir einfach Ihren Text und ich werde:\n\n"
+            "✨ Grammatik- und Rechtschreibfehler korrigieren\n"
+            "📝 Die Regeln klar erklären\n"
+            "🌐 Den Text in Ihre Sprache übersetzen\n\n"
+            "Klicken Sie auf /start, um zu beginnen!"
+        ),
     },
     "ru": {
         "welcome_new": "Добро пожаловать в satzfix!\n\nПожалуйста, выберите язык для объяснений и переводов:",
@@ -95,6 +131,18 @@ TRANSLATIONS = {
         "loading_errors": "Загрузка ошибок",
         "analyzing": "Анализ текста",
         "require_language_selection": "Пожалуйста, выберите язык перевода и объяснений",
+        "error_text_too_long": "Текст слишком длинный ({current_len}/{char_limit} символов). Пожалуйста, разделите его на части или попросите создателя бота увеличить ваш лимит: @Kozaknazar",
+        "error_daily_limit_reached": "Дневной лимит запросов исчерпан ({req_limit}/{req_limit}). Пожалуйста, попробуйте завтра или попросите создателя бота дать больше запросов: @Kozaknazar",
+        "bot_short_description": "🇩🇪 Я исправляю немецкие предложения и объясняю ошибки по правилам CEFR.",
+        "bot_welcome_description": (
+            "Привет! Я твой личный помощник по немецкому языку 🇩🇪\n\n"
+            "Учишь немецкий и сомневаешься, правильно ли построено предложение? "
+            "Просто отправь мне свой текст, и я:\n\n"
+            "✨ Исправлю грамматику и орфографию\n"
+            "📝 Объясню правила понятным языком\n"
+            "🌐 Добавлю перевод\n\n"
+            "Нажимай /start, чтобы начать!"
+        ),
     }
 }
 

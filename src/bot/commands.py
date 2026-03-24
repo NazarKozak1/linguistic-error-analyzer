@@ -180,6 +180,8 @@ async def set_bot_commands(bot: Bot):
         )
     ]
     tasks.append(bot.set_my_commands(commands=default_commands, scope=scope))
+    tasks.append(bot.set_my_description(description=get_text(DEFAULT_LANGUAGE, "bot_welcome_description")))
+    tasks.append(bot.set_my_short_description(short_description=get_text(DEFAULT_LANGUAGE, "bot_short_description")))
 
     # 2. Localized menus for specific languages
     for lang in SUPPORTED_LANGUAGES:
@@ -196,6 +198,17 @@ async def set_bot_commands(bot: Bot):
                 language_code=lang
             )
         )
+
+        tasks.append(bot.set_my_description(
+            description=get_text(lang, "bot_welcome_description"),
+            language_code=lang
+        ))
+
+
+        tasks.append(bot.set_my_short_description(
+            short_description=get_text(lang, "bot_short_description"),
+            language_code=lang
+        ))
 
     # 3. Execute all API requests concurrently
     try:

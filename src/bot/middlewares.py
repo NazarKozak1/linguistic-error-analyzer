@@ -5,6 +5,7 @@ from sqlalchemy import select
 from src.db.database import AsyncSessionLocal
 from src.db.models import User, UserRole
 from src.bot.config import BOT_STATE
+from src.utils.texts import get_text
 
 class QuotaMiddleware(BaseMiddleware):
     async def __call__(
@@ -54,25 +55,29 @@ class QuotaMiddleware(BaseMiddleware):
 
             # --- Quota checks (Only for regular text messages) ---
             rules = {
-                UserRole.REGULAR: {"req_limit": 5, "char_limit": 250},
-                UserRole.ADMIN: {"req_limit": 15, "char_limit": 500},
+                UserRole.REGULAR: {"req_limit": 5, "char_limit": 150},
+                UserRole.ADMIN: {"req_limit": 15, "char_limit": 250},
                 UserRole.OWNER: {"req_limit": 999999, "char_limit": 4096},
             }
 
             user_rules = rules.get(user.role, rules[UserRole.REGULAR])
 
-            if len(text) > user_rules["char_limit"]:
-                await event.answer(
-                    f"Text is too long ({len(text)}/{user_rules['char_limit']} characters). "
-                    f"Please split it into smaller parts."
+            clean_text = text.strip()
+            user_lang = user.preferred_language or "en"
+
+            if len(clean_text) > user_rules["char_limit"]:
+                warning_text = get_text(user_lang, "error_text_too_long").format(
+                    current_len=len(clean_text),
+                    char_limit=user_rules["char_limit"]
                 )
+                await event.answer(warning_text)
                 return
 
             if user.daily_requests >= user_rules["req_limit"]:
-                await event.answer(
-                    f"Daily request limit reached ({user_rules['req_limit']}/{user_rules['req_limit']}). "
-                    f"Please try again tomorrow or ask me to get more daily requests: @Kozaknazar"
+                limit_text = get_text(user_lang, "error_daily_limit_reached").format(
+                    req_limit=user_rules["req_limit"]
                 )
+                await event.answer(limit_text)
                 return
 
             return await handler(event, data)

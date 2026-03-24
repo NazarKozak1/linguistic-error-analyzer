@@ -82,6 +82,7 @@ class SinglePassAnalyzer:
         Provide the corrected text and its translation into {language.value}.
         Do NOT explain the errors yet.
         """
+        user_input = user_input.strip()
         response = await self.client.beta.chat.completions.parse(
             model=self.model,
             messages=[ # type: ignore
@@ -107,6 +108,7 @@ class SinglePassAnalyzer:
 
     async def get_detailed_errors(self, user_input: str, corrected_text: str, language: OutputLanguage) -> dict:
         """Step 2: Detailed error extraction (called only if errors exist)."""
+        user_input = user_input.strip()
         system_prompt = f"""
         You are a strict CEFR German examiner.
         The user wrote: "{user_input}"
